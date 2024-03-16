@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
         // useMaterial3: false,
         primarySwatch: Colors.blue,
       ),
-      // A widget which will be started on application startup
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -24,7 +23,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   final String title;
-  const MyHomePage({super.key, required this.title});  
+  const MyHomePage({super.key, required this.title});
 
   @override
   Widget build(BuildContext context) {
